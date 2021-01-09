@@ -22,6 +22,6 @@ directory.
 
 0. Run `bundle exec rake db:setup` to create the initial database.
 
-0. Run `rails server -p $PORT -b $IP` to start the app.  Cloud9 will pop
+0. Run `rails server -p 8080 -b 0.0.0.0` to start the app. Code will pop
 up a window showing the URL to visit in your browser to interact with
 the running app.
